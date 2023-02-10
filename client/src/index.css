@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Poppins:wght@200&family=Rubik:ital,wght@0,700;1,400;1,500&family=Ubuntu:ital,wght@0,500;1,400&family=Varela+Round&display=swap');
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Rubik", sans-serif ;
+  color: white;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}

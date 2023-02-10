@@ -1,0 +1,91 @@
+#postButton{
+  color: white;
+  background-color: #f08080
+}
+.likeCount{
+    color:rgb(141, 131, 131)
+}
+.sampleAgain{
+    color: #b95757
+}
+.bg-light{
+    color: #f1c8c8;
+}
+.coral{
+    color: #00353F;
+}
+.primary{
+    /* 50 */
+    color: #E6FBFF;
+    /* 100 */
+    color: #CCF7FE;
+    /* 200 */
+    color: #99EEFD;
+    /* 300 */
+    color: #66E6FC;
+    /* 400 */
+    color: #33DDFB;
+    /* 500 */
+    color: #00D5FA;
+    /* 600 */
+    color: #00A0BC;
+    /* 700 */
+    color: #006B7D;
+    /* 800 */
+    color: #00353F;
+    /* 900 */
+    color: #001519;
+}
+.sample-pprimary{
+    /* 50 */
+    color: #eee0e0; 
+    /* 100 */
+    color: #d4b6b6;
+    /* 200 */
+    color: #f08080;
+    /* 300 */
+    color: #e67575;
+    /* 400 */
+    color: #ee6f6f;
+    /* 500 */
+    color: #f15f5f;
+    /* 600 */
+    color: #ee5959;
+    /* 700 */
+    color: #f04646;
+    /* 800 */
+    color: #ec2d2d;
+}
+
+.grey{
+    /* 0 */
+    color:  #FFFFFF ;
+     /* 10 */
+    color:  #F6F6F6 ;
+    /* 50 */
+    color:  #F0F0F0 ;
+    /* 100 */
+    color:  #E0E0E0 ;
+    /* 200 */
+    color:  #C2C2C2 ;
+    /* 300 */
+    color:  #A3A3A3 ;
+    /* 400 */
+    color:  #858585 ;
+    /* 500 */
+    color:  #666666 ;
+    /* 600 */
+    color:  #4D4D4D ;
+    /*  700*/
+    color:  #333333 ;
+    /* 800 */
+    color:  #1A1A1A ;
+    /* 900 */
+    color:  #0A0A0A ;
+    /* 1000 */
+    color:  #000000 
+}
+
+#fgo{
+    
+}
