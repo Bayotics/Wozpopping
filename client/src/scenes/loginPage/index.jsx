@@ -24,7 +24,7 @@ const LoginPage = () => {
                 borderRadius="1.5rem"
                 backgroundColor={theme.palette.background.alt}
             >
-                <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
+                <Typography fontWeight="700" variant="h5" sx={{ mb: "1.5rem" }}>
                     See trending topics as they happen! Login now!
         </Typography>
                 <Form />
