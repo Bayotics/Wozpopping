@@ -53,6 +53,11 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
+app.use(express.static(path.join(__dirname, '/client/build')));
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/client/build/index.html'))
+);
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
 mongoose
