@@ -22,6 +22,7 @@ import { users, posts } from "./data/index.js";
 /* CONFIGURATIONS */
 // const __filename = fileURLToPath(import.meta.url);
 // const __dirname = path.dirname(__filename);
+const __dirname = path.resolve();
 dotenv.config();
 const app = express();
 app.use(express.json());
@@ -53,7 +54,6 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, '/client/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/client/build/index.html'))
