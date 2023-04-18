@@ -53,7 +53,7 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-const _dirname = path.resolve();
+const _dirname = path.resolve(); //to redirect
 app.use(express.static(path.join(_dirname, '/client/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(_dirname, '/client/build/index.html'))
