@@ -13,7 +13,6 @@ router.get("/:id/comments", getPostComments);
 router.patch("/:id/like", verifyToken, likePost);
 // router.patch("/:id/comment", verifyToken, commentOnPost)
 
-// router.put("")
 
 
 /*DELETE*/
