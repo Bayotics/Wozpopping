@@ -11,9 +11,6 @@ router.delete("/:id", deletePost);
 router.get("/:id/comments", getPostComments);
 /* UPDATE */
 router.patch("/:id/like", verifyToken, likePost);
-// router.patch("/:id/comment", verifyToken, commentOnPost)
-
-
 
 /*DELETE*/
 
