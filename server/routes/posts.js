@@ -10,6 +10,7 @@ router.get("/:userId/posts", verifyToken, getUserPosts);
 router.delete("/:id", deletePost);
 router.get("/:id/comments", getPostComments);
 /* UPDATE */
+
 router.patch("/:id/like", verifyToken, likePost);
 
 /*DELETE*/
