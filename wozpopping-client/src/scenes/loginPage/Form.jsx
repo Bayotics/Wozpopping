@@ -7,6 +7,7 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
+import axios from "axios";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import { Formik } from "formik";
 import * as yup from "yup";
@@ -65,7 +66,8 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "http://localhost:3001/auth/register",
+      // "http://localhost:3001/auth/register",
+      "https://wozpopping.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
