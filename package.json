@@ -1,0 +1,21 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bayotics/Wozpopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bayotics/Wozpopping/issues"
+  },
+  "homepage": "https://github.com/Bayotics/Wozpopping#readme"
+}
